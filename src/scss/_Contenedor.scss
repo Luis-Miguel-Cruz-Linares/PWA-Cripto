@@ -1,0 +1,11 @@
+.container{
+    // el margin es la medida del div
+    margin: 30px;
+    padding: 15px;
+    border: solid 1px $white;
+    border-radius: 8px;
+    // la funcion darken es para poder mover mejor el color
+    background-color: darken($color: $dark, $amount: 8);
+    box-shadow: 1px 1px 24px $white;    
+
+}
